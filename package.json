@@ -1,0 +1,42 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.13.0",
+    "@material-ui/core": "4.9.9",
+    "@material-ui/icons": "4.9.1",
+    "bootstrap": "4.4.1",
+    "react": "16.12.0",
+    "react-bootstrap": "1.0.0",
+    "react-dom": "16.13.1",
+    "react-icons": "3.9.0",
+    "react-md": "1.16.1",
+    "react-parallax": "3.0.3",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.0.1",
+    "react-typed": "1.2.0",
+    "react-vertical-timeline-component": "2.5.0",
+    "typewriter-effect": "2.13.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
