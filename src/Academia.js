@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
@@ -19,12 +19,17 @@ class Academia extends Component {
             icon={<SchoolIcon />}
           >
             <h4 className="vertical-timeline-element-title">
-              Birla Institute of Technology, Mesra
+              <i className={"fas fa-university fa-sm"} />
+              &nbsp;Birla Institute of Technology, Mesra
             </h4>
             <h6 className="vertical-timeline-element-subtitle">
-              Bachelor of Electronics & Communications Engineering
+              <i className={"fas fa-graduation-cap fa-sm"} />
+              &nbsp; Bachelor of Electronics & Communications Engineering
             </h6>
-            <p>Mesra, Ranchi, Jharkhand</p>
+            <p>
+              <i className={"fas fa-map-marker fa-sm"} />
+              &nbsp; Mesra, Ranchi, Jharkhand
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -33,12 +38,17 @@ class Academia extends Component {
             icon={<SchoolIcon />}
           >
             <h4 className="vertical-timeline-element-title">
-              D.Singh International, Jamui
+              <i className={"fas fa-university fa-sm"} />
+              &nbsp;D.Singh International, Jamui
             </h4>
             <h6 className="vertical-timeline-element-subtitle">
-              Higher Secondary
+              <i className={"fas fa-graduation-cap fa-sm"} />
+              &nbsp; Higher Secondary
             </h6>
-            <p>Jamui, Bihar</p>
+            <p>
+              <i className={"fas fa-map-marker fa-sm"} />
+              &nbsp; Jamui, Bihar
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -47,12 +57,17 @@ class Academia extends Component {
             icon={<SchoolIcon />}
           >
             <h4 className="vertical-timeline-element-title">
-              D.A.V Public School, Jamui
+              <i className={"fas fa-university fa-sm"} />
+              &nbsp;D.A.V Public School, Jamui
             </h4>
             <h6 className="vertical-timeline-element-subtitle">
-              Secondary School
+              <i className={"fas fa-graduation-cap fa-sm"} />
+              &nbsp; Secondary School
             </h6>
-            <p>Jamui, Bihar</p>
+            <p>
+              <i className={"fas fa-map-marker fa-sm"} />
+              &nbsp; Jamui, Bihar
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

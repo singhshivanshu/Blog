@@ -6,7 +6,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar bg="dark" variant="dark" style={{}}>
+        <Navbar variant="dark" style={{}}>
           <Nav className="mx-auto">
             <Navbar.Brand
               href="/"
@@ -16,12 +16,24 @@ export default class Header extends React.Component {
             </Navbar.Brand>
           </Nav>
         </Navbar>
-        <Navbar bg="dark" variant="dark">
-          <Nav className="mx-auto">
-            <Nav.Link href="/about">ABOUT</Nav.Link>
-            <Nav.Link href="/academia">ACADEMIA</Nav.Link>
-            <Nav.Link href="/projects">PROJECTS</Nav.Link>
-            <Nav.Link href="/blog">BLOG</Nav.Link>
+        <Navbar className="sec-nav" variant="dark">
+          <Nav className="mx-auto" activeKey={window.location.pathname}>
+            <Nav.Link href="/about" >
+              <i className={"fas fa-male fa-sm"} />
+              &nbsp;ABOUT
+            </Nav.Link>
+            <Nav.Link href="/academia" >
+              <i className={"fas fa-graduation-cap fa-sm"} />
+              &nbsp;ACADEMIA
+            </Nav.Link>
+            <Nav.Link href="/projects" >
+              <i className={"fas fa-pen fa-sm"} />
+              &nbsp;PROJECTS
+            </Nav.Link>
+            <Nav.Link href="/blog">
+              <i className={"fas fa-blog fa-sm"} />
+              &nbsp;BLOG
+            </Nav.Link>
           </Nav>
         </Navbar>
       </div>

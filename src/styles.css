@@ -3,18 +3,12 @@
   text-align: center;
 }
 
-.academia {
-  background-color: #343a40;
-  margin-top: 4px;
-}
-
 #skill-card-button {
-  /* background: #f0f0f0; */
-  /* color: black; */
   margin-right: 10px;
-  /* border-color: #d4d1d1; */
   padding: 8px;
   font-size: 14px;
+  outline: none !important;
+  outline-offset: none !important;
 }
 
 .col-skill-button {
@@ -29,17 +23,8 @@
   margin-top: 2rem;
 }
 
-.project-container {
-  background-color: #343a40;
-  margin-top: 4px;
-}
-
 .vertical-timeline-element-date {
   text-align: left;
-}
-
-.div-home {
-  background-image: url("https://images.unsplash.com/photo-1558544956-15f3c317e06a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
 }
 
 .navbar-Header {
@@ -49,4 +34,50 @@
 .skill-head {
   letter-spacing: 1.5px;
   justify-content: center;
+}
+
+/* for vertical timeliner line */
+.vertical-timeline::before {
+  background: rgb(0, 59, 92) !important;
+}
+
+/* for timeliner component */
+.vertical-timeline-element-content.bounce-in {
+  box-shadow: 0.5px 1px 2px 0px;
+}
+
+.vertical-timeline-element-date {
+  color: black !important;
+}
+
+.navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+@media (max-width: 560px) {
+  .navbar-expand .navbar-nav .nav-link {
+    padding-left: 0.5rem !important ;
+    padding-right: 0.5rem !important;
+  }
+}
+
+.navbar {
+  background: rgb(0, 59, 92);
+}
+
+/* social icons css */
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.fab1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

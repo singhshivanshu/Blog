@@ -13,7 +13,7 @@ class Welcome extends Component {
         className="welcome"
         style={{
           display: "flex",
-          justifyContent: "center"
+          justifyContent: "center",
           // background: "black"
         }}
       >
@@ -25,14 +25,16 @@ class Welcome extends Component {
             textAlign: "center",
             borderRadius: 0,
             marginTop: "2rem",
-            marginBottom: "2rem"
+            marginBottom: "2rem",
+            boxShadow: "0px 1px 2px 0px",
+            border: "0",
           }}
         >
           <Card.Header
             style={{
-              backgroundColor: "#343a40",
+              backgroundColor: "rgb(0, 59, 92)",
               color: "white",
-              borderRadius: "0"
+              borderRadius: "0",
             }}
           >
             guest@shivanshu.live:~/
@@ -42,13 +44,13 @@ class Welcome extends Component {
               style={{
                 textAlign: "left",
                 fontFamily: "monospace",
-                fontSize: "18px"
+                fontSize: "18px",
               }}
             >
               {" "}
               <Typed
                 strings={[
-                  "Hello world.... <br/>I am Shivanshu<br/><br/>Human..... since 1998"
+                  "Hello world.... <br/>I am Shivanshu<br/><br/>Human..... since 1998",
                 ]}
                 typeSpeed={70}
                 // backSpeed={0}

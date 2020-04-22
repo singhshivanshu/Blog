@@ -84,11 +84,16 @@ class Skills extends Component {
       >
         <Card
           border="secondary"
-          style={{ width: "700px", borderRadius: 0 }}
+          style={{
+            width: "700px",
+            borderRadius: 0,
+            boxShadow: "0px 1px 2px 0px",
+            border: "0",
+          }}
           className="skills-card"
         >
           <Card.Header style={{ padding: "0" }}>
-            <Navbar bg="dark" variant="dark">
+            <Navbar variant="dark">
               <Navbar.Brand className="skill-head mx-auto">SKILLS</Navbar.Brand>
             </Navbar>
           </Card.Header>
