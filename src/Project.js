@@ -41,7 +41,8 @@ class Project extends Component {
                   className="vertical-timeline-element-title"
                   style={{ marginBottom: "16px" }}
                 >
-                  <i className={"fab fa-audible fa-sm"} />&nbsp;{elem.topic}
+                  <i className={"fab fa-audible fa-sm"} />
+                  &nbsp;{elem.topic}
                 </h4>
                 <h6 className="vertical-timeline-element-subtitle">
                   {elem.technology.map((e) => {
@@ -64,10 +65,6 @@ class Project extends Component {
               </VerticalTimelineElement>
             );
           })}
-          <VerticalTimelineElement
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-            icon={<StarIcon />}
-          />
         </VerticalTimeline>
       </div>
     );
