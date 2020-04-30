@@ -5,7 +5,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
-import StarIcon from "@material-ui/icons/Star";
 
 class Academia extends Component {
   render() {
@@ -52,7 +51,7 @@ class Academia extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="April-2013"
+            date="April-2012"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
           >

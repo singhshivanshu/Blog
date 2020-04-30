@@ -13,7 +13,7 @@ class Skills extends Component {
           icon: "fa-rocket",
           skills: [
             { skill: "Windows", level: "daily-use", but: "success" },
-            { skill: "OSX", level: "beginner", but: "danger" },
+            { skill: "OSX", level: "moderate", but: "info" },
           ],
         },
         {
@@ -31,7 +31,7 @@ class Skills extends Component {
             { skill: "HTML5", level: "moderate", but: "info" },
             { skill: "CSS3", level: "moderate", but: "info" },
             { skill: "Bootstrap", level: "moderate", but: "info" },
-            { skill: "ReactJS", level: "moderate", but: "info" },
+            { skill: "React", level: "moderate", but: "info" },
           ],
         },
         {

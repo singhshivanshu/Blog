@@ -5,7 +5,7 @@ import About from "./About";
 import Academia from "./Academia";
 import Footer from "./Footer";
 import Project from "./Project";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 function Home() {
   return (
@@ -17,6 +17,8 @@ function Home() {
         <Route path="/academia" component={Academia} />
         <Route path="/projects" component={Project} />
       </Switch>
+      <br/>
+      <br/>
       <hr />
       <Footer />
     </div>

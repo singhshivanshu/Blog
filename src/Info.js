@@ -25,6 +25,7 @@ class Info extends Component {
           <div style={{ backgroundColor: "rgb(0, 59, 92)" }}>
             <img
               src={Img}
+              alt="Shivanshu"
               style={{
                 height: "140px",
                 borderRadius: "50%",
@@ -38,15 +39,27 @@ class Info extends Component {
               className="social-icons"
               style={{ textAlign: "center", padding: "20px" }}
             >
-              <a href="https://www.facebook.com/shivanshu.singh.733">
+              <a
+                href="https://www.facebook.com/shivanshu.singh.733"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab1 fab fa-facebook-square fa-2x" />
               </a>
               &emsp;
-              <a href="https://www.github.com/singhshivanshu">
+              <a
+                href="https://www.github.com/singhshivanshu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab1 fab fa-github fa-2x " />
               </a>
               &emsp;
-              <a href="https://www.linkedin.com/in/shivanshu-singh-192b80155">
+              <a
+                href="https://www.linkedin.com/in/shivanshu-singh-192b80155"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab1 fab fa-linkedin fa-2x" />
               </a>
             </div>
@@ -74,6 +87,7 @@ class Info extends Component {
                   <a
                     href={Resume}
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "rgb(0, 59, 92)" }}
                   >
                     <i className="fas fa-file-pdf " />

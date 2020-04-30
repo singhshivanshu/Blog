@@ -66,6 +66,15 @@
   }
 }
 
+@media (max-width: 400px) {
+  .navbar-expand .navbar-nav .nav-link {
+    padding-left: 2px !important ;
+    padding-right: 2px !important;
+  }
+}
+
+
+
 .navbar {
   background: rgb(0, 59, 92);
 }
@@ -80,4 +89,49 @@
 .fab1 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+
+.container-f {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(110, 110, 110);
+  margin-left: 26.29% !important;
+  font-size: small ;
+  width: 60% !important;
+}
+
+
+
+.box {
+  display: flex;
+  justify-items: center;
+}
+
+@media (max-width: 560px) {
+  .container-f {
+    margin-left: 7% !important;
+    justify-content: start;
+    width: auto !important;
+  }
+  .box2 {
+    margin-left: 13%;
+  }
+  .box3 {
+    margin-left: 20%;
+  }
+}
+
+.link-foot {
+  color: rgb(110, 110, 110) ;
+}
+
+.link-foot:hover {
+  color: rgb(0, 59, 92);
 }

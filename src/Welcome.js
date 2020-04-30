@@ -44,13 +44,13 @@ class Welcome extends Component {
               style={{
                 textAlign: "left",
                 fontFamily: "monospace",
-                fontSize: "18px",
+                fontSize: "15px",
               }}
             >
               {" "}
               <Typed
                 strings={[
-                  "Hello world.... <br/>I am Shivanshu<br/><br/>Human..... since 1998",
+                  "Hello world! <br/>I'm Shivanshu<br/><br/>Human..... since 1998<br/>Programmer..... since 2020<br/><br/>Self-critic, Agnostic, Beliver..<br/>Look around to know more..",
                 ]}
                 typeSpeed={70}
                 // backSpeed={0}
