@@ -102,9 +102,9 @@
   display: flex;
   justify-content: space-between;
   color: rgb(110, 110, 110);
-  margin-left: 26.29% !important;
+  margin-left: 22.80% !important;
   font-size: small ;
-  width: 60% !important;
+  width: 68% !important;
 }
 
 
@@ -116,7 +116,7 @@
 
 @media (max-width: 560px) {
   .container-f {
-    margin-left: 7% !important;
+    margin-left: 12% !important;
     justify-content: start;
     width: auto !important;
   }
