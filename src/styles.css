@@ -102,7 +102,7 @@
   display: flex;
   justify-content: space-between;
   color: rgb(110, 110, 110);
-  margin-left: 22.80% !important;
+  margin-left: 24.20% !important;
   font-size: small ;
   width: 68% !important;
 }
@@ -116,7 +116,7 @@
 
 @media (max-width: 560px) {
   .container-f {
-    margin-left: 12% !important;
+    margin-left: 15% !important;
     justify-content: start;
     width: auto !important;
   }
@@ -125,6 +125,12 @@
   }
   .box3 {
     margin-left: 20%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container-f {
+    margin-left: 23.10% !important;
   }
 }
 

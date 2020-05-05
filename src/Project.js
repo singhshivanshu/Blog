@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import NextWeekIcon from '@material-ui/icons/NextWeek';
+import NextWeekIcon from "@material-ui/icons/NextWeek";
 
 import Button from "react-bootstrap/Button";
 
@@ -14,20 +14,32 @@ class Project extends Component {
     this.state = {
       projects: [
         {
+          topic: "Built a Movie website using API of TMDB.",
+          technology: ["ReactJS"],
+          breif:
+            "This website has list of movies and Tv shows that are trending, highest rated, latest etc. along with the functionality of searching (everything related to movies)",
+          date: "April -2019",
+          logo: "fas fa-caret-square-right",
+          pro_link: "https://github.com/singhshivanshu/movieOn",
+        },
+        ,
+        {
           topic: "Built a responsive personal website from scratch.",
           technology: ["ReactJS", "Bootstrap", "JavaScript"],
           breif:
             "Using React, some NPM packages(vertical-timeline, react-typed etc.) and font-awesome built a personal blog website ",
-          date: "April' 2020",
-          logo: "fa-staylinked",
+          date: "April -2020",
+          logo: "fab fa-staylinked",
+          pro_link: "https://github.com/singhshivanshu/Blog",
         },
         {
           topic: "Speech Processing using wavelet transform.",
           technology: ["MATLAB"],
           breif:
             "Using wavelet transform in speech enhancement system got the utmost details of the speech signal by maintaining the quality and intelligibility of the speech ",
-          date: "Jan - April' 2019",
-          logo: "fa-audible",
+          date: "Jan -2019",
+          logo: "fab fa-audible",
+          pro_link: "#",
         },
       ],
     };
@@ -50,8 +62,15 @@ class Project extends Component {
                   className="vertical-timeline-element-title"
                   style={{ marginBottom: "16px" }}
                 >
-                  <i className={`fab ${elem.logo} fa-sm`} />
-                  &nbsp;{elem.topic}
+                  <a
+                    href={elem.pro_link}
+                    style={{ color: "rgb(0, 59, 92)" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className={`${elem.logo} fa-sm`} />
+                    &nbsp;{elem.topic}
+                  </a>
                 </h4>
                 <h6 className="vertical-timeline-element-subtitle">
                   {elem.technology.map((e) => {

@@ -27,7 +27,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            source
+            <i className="fas fa-code" />&nbsp;source
           </a>
         </div>
         <br />

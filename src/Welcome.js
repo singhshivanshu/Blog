@@ -35,6 +35,7 @@ class Welcome extends Component {
               backgroundColor: "rgb(0, 59, 92)",
               color: "white",
               borderRadius: "0",
+              letterSpacing: "1px",
             }}
           >
             guest@shivanshu.live:~/
@@ -50,7 +51,7 @@ class Welcome extends Component {
               {" "}
               <Typed
                 strings={[
-                  "Hello world! <br/>I'm Shivanshu<br/><br/>Human..... since 1998<br/>Programmer..... since 2020<br/><br/>Self-critic, Agnostic, Beliver..<br/>Look around to know more..",
+                  "Hello world! <br/>I'm Shivanshu<br/><br/>Human..... since 1998<br/>Programmer..... since 2020<br/><br/>Self-critic, Agnostic, Believer..<br/>Look around to know more..",
                 ]}
                 typeSpeed={70}
                 // backSpeed={0}
