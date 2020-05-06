@@ -102,7 +102,7 @@
   display: flex;
   justify-content: space-between;
   color: rgb(110, 110, 110);
-  margin-left: 24.20% !important;
+  margin-left: 23.10% !important;
   font-size: small ;
   width: 68% !important;
 }
@@ -116,23 +116,25 @@
 
 @media (max-width: 560px) {
   .container-f {
-    margin-left: 15% !important;
+    margin-left: 11% !important;
     justify-content: start;
     width: auto !important;
   }
   .box2 {
-    margin-left: 13%;
+    margin-left: 21%;
   }
   .box3 {
-    margin-left: 20%;
+    margin-left: 10%;
+  }
+  
+}
+
+@media (min-width: 1441px) {
+  .container-f {
+    margin-left: 24.20% !important;
   }
 }
 
-@media (min-width: 1440px) {
-  .container-f {
-    margin-left: 23.10% !important;
-  }
-}
 
 .link-foot {
   color: rgb(110, 110, 110) ;
