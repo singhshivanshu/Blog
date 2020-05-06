@@ -128,7 +128,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .container-f {
     margin-left: 23.10% !important;
   }
