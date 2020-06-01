@@ -13,6 +13,25 @@ class Project extends Component {
     super(props);
     this.state = {
       projects: [
+        
+        {
+          topic: "Handwritten text recognizer.",
+          technology: ["ReactJS","React Bootstrap","Axios","React file reader"],
+          breif:
+            "A Web-app which recognize all the texts inside an image. It has been made using Reactjs, react bootstarp, axios and react-file-reader.  Google vision API has been used to get the text out of image.",
+          date: "May -2020",
+          logo: "fas fa-caret-square-right",
+          pro_link: "https://github.com/singhshivanshu/Handwritten-text-generator",
+        },
+        {
+          topic: "CSV File Reader.",
+          technology: ["ReactJS"],
+          breif:
+            "A Web-app which reads csv file and covert it into tabular form. It has been made using Reactjs.",
+          date: "May -2020",
+          logo: "fas fa-caret-square-right",
+          pro_link: "https://github.com/singhshivanshu/CSV-File-Reader",
+        },
         {
           topic: "Built a Movie website using API of TMDB.",
           technology: ["ReactJS"],
@@ -28,7 +47,7 @@ class Project extends Component {
           technology: ["ReactJS", "Bootstrap", "JavaScript"],
           breif:
             "Using React, some NPM packages(vertical-timeline, react-typed etc.) and font-awesome built a personal blog website ",
-          date: "April -2020",
+          date: "Mar -2020",
           logo: "fab fa-staylinked",
           pro_link: "https://github.com/singhshivanshu/Blog",
         },
