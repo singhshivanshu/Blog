@@ -13,15 +13,35 @@ class Project extends Component {
     super(props);
     this.state = {
       projects: [
-        
+        {
+          topic: "Online shoe store.",
+          technology: [
+            "ReactJS",
+            "MaterialUI",
+            "Axios",
+            "react-credic-cards",
+          ],
+          breif:
+            "A basic prototype of a online shoe store with the functionality of filtering and payment, session storage is used to store the bought items. It has been made using Reactjs, Material-UI, react-credit-cards, axios",
+          date: "June -2020",
+          logo: "fab fa-shopify",
+          pro_link:
+            "https://github.com/singhshivanshu/Happy-Feet-Online-shoe-store",
+        },
         {
           topic: "Handwritten text recognizer.",
-          technology: ["ReactJS","React Bootstrap","Axios","React file reader"],
+          technology: [
+            "ReactJS",
+            "React Bootstrap",
+            "Axios",
+            "React file reader",
+          ],
           breif:
             "A Web-app which recognize all the texts inside an image. It has been made using Reactjs, react bootstarp, axios and react-file-reader.  Google vision API has been used to get the text out of image.",
           date: "May -2020",
           logo: "fas fa-caret-square-right",
-          pro_link: "https://github.com/singhshivanshu/Handwritten-text-generator",
+          pro_link:
+            "https://github.com/singhshivanshu/Handwritten-text-generator",
         },
         {
           topic: "CSV File Reader.",

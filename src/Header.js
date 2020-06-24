@@ -18,19 +18,19 @@ export default class Header extends React.Component {
         </Navbar>
         <Navbar className="sec-nav" variant="dark">
           <Nav className="mx-auto" activeKey={window.location.pathname}>
-            <Nav.Link href="/about" >
+            <Nav.Link href="/about">
               <i className={"fas fa-male fa-sm"} />
               &nbsp;ABOUT
             </Nav.Link>
-            <Nav.Link href="/academia" >
+            <Nav.Link href="/academia">
               <i className={"fas fa-graduation-cap fa-sm"} />
               &nbsp;ACADEMICS
             </Nav.Link>
-            <Nav.Link href="/projects" >
+            <Nav.Link href="/projects">
               <i className={"fas fa-pen fa-sm"} />
               &nbsp;PROJECTS
             </Nav.Link>
-            <Nav.Link href="#blog">
+            <Nav.Link target="_blank" href="https://shivanshublog.netlify.app/">
               <i className={"fas fa-blog fa-sm"} />
               &nbsp;BLOG
             </Nav.Link>

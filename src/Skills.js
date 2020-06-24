@@ -21,6 +21,7 @@ class Skills extends Component {
           icon: "fa-language",
           skills: [
             { skill: "JavaScript", level: "daily-use", but: "success" },
+            { skill: "ES6", level: "daily-use", but: "success" },
             { skill: "Python", level: "moderate", but: "info" },
           ],
         },
@@ -31,7 +32,9 @@ class Skills extends Component {
             { skill: "HTML5", level: "moderate", but: "info" },
             { skill: "CSS3", level: "moderate", but: "info" },
             { skill: "Bootstrap", level: "moderate", but: "info" },
+            { skill: "MaterialUI", level: "moderate", but: "info" },
             { skill: "React", level: "moderate", but: "info" },
+            { skill: "GatsbyJS", level: "Beginner", but: "danger" },
           ],
         },
         {
@@ -50,7 +53,10 @@ class Skills extends Component {
         {
           type: "Tools",
           icon: "fa-cogs",
-          skills: [{ skill: "Git", level: "moderate", but: "info" }],
+          skills: [
+            { skill: "Git", level: "moderate", but: "info" },
+            { skill: "GraphQL", level: "moderate", but: "info" },
+          ],
         },
         {
           type: "Others",
