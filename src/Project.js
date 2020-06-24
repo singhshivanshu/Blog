@@ -61,7 +61,6 @@ class Project extends Component {
           logo: "fas fa-caret-square-right",
           pro_link: "https://github.com/singhshivanshu/movieOn",
         },
-        ,
         {
           topic: "Built a responsive personal website from scratch.",
           technology: ["ReactJS", "Bootstrap", "JavaScript"],
