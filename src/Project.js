@@ -14,16 +14,31 @@ class Project extends Component {
     this.state = {
       projects: [
         {
+          topic: "Bank Transaction web-app",
+          technology: [
+            "ReactJS",
+            "MaterialUI",
+            "Bootstrap",
+            "react-pdf",
+            "react-router"
+          ],
+          breif: "A web-app that allows user to do all kind of transactions, along with keeping track of all the past transactions one can also apply for loans by uploading their documents(that can also be previewed ).",
+          date: "July - 2020",
+          logo: "fas fa-caret-square-right",
+          pro_link: "https://github.com/singhshivanshu/Peach-bank"
+
+        },
+        {
           topic: "Online shoe store.",
           technology: [
             "ReactJS",
             "MaterialUI",
             "Axios",
-            "react-credic-cards",
+            "react-credit-card",
           ],
           breif:
             "A basic prototype of a online shoe store with the functionality of filtering and payment, session storage is used to store the bought items. It has been made using Reactjs, Material-UI, react-credit-cards, axios",
-          date: "June -2020",
+          date: "June - 2020",
           logo: "fab fa-shopify",
           pro_link:
             "https://github.com/singhshivanshu/Happy-Feet-Online-shoe-store",
@@ -38,7 +53,7 @@ class Project extends Component {
           ],
           breif:
             "A Web-app which recognize all the texts inside an image. It has been made using Reactjs, react bootstarp, axios and react-file-reader.  Google vision API has been used to get the text out of image.",
-          date: "May -2020",
+          date: "May - 2020",
           logo: "fas fa-caret-square-right",
           pro_link:
             "https://github.com/singhshivanshu/Handwritten-text-generator",
@@ -48,7 +63,7 @@ class Project extends Component {
           technology: ["ReactJS"],
           breif:
             "A Web-app which reads csv file and covert it into tabular form. It has been made using Reactjs.",
-          date: "May -2020",
+          date: "May - 2020",
           logo: "fas fa-caret-square-right",
           pro_link: "https://github.com/singhshivanshu/CSV-File-Reader",
         },
@@ -57,7 +72,7 @@ class Project extends Component {
           technology: ["ReactJS"],
           breif:
             "This website has list of movies and Tv shows that are trending, highest rated, latest etc. along with the functionality of searching (everything related to movies)",
-          date: "April -2019",
+          date: "April - 2019",
           logo: "fas fa-caret-square-right",
           pro_link: "https://github.com/singhshivanshu/movieOn",
         },
@@ -66,7 +81,7 @@ class Project extends Component {
           technology: ["ReactJS", "Bootstrap", "JavaScript"],
           breif:
             "Using React, some NPM packages(vertical-timeline, react-typed etc.) and font-awesome built a personal blog website ",
-          date: "Mar -2020",
+          date: "Mar - 2020",
           logo: "fab fa-staylinked",
           pro_link: "https://github.com/singhshivanshu/Blog",
         },
@@ -75,7 +90,7 @@ class Project extends Component {
           technology: ["MATLAB"],
           breif:
             "Using wavelet transform in speech enhancement system got the utmost details of the speech signal by maintaining the quality and intelligibility of the speech ",
-          date: "Jan -2019",
+          date: "Jan - 2019",
           logo: "fab fa-audible",
           pro_link: "#",
         },
