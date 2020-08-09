@@ -30,7 +30,7 @@ export default class Header extends React.Component {
               <i className={"fas fa-pen fa-sm"} />
               &nbsp;PROJECTS
             </Nav.Link>
-            <Nav.Link target="_blank" href="#">
+            <Nav.Link target="_blank" href="https://shivanshublog.netlify.app">
               <i className={"fas fa-blog fa-sm"} />
               &nbsp;BLOG
             </Nav.Link>
