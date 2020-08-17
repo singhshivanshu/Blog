@@ -14,6 +14,15 @@ class Project extends Component {
     this.state = {
       projects: [
         {
+          topic: "World.",
+          technology: ["ReactJS"],
+          breif:
+            "A Web-app where you can find all the informantions about all the countries in the world, It has been made using ReatJS, and Vanilla CSS ",
+          date: "Aug - 2020",
+          logo: "fas fa-globe-asia",
+          pro_link: "https://all-countries.netlify.app",
+        },
+        {
           topic: "Bank Transaction web-app",
           technology: [
             "ReactJS",
