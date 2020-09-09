@@ -6,12 +6,10 @@ import "@fortawesome/fontawesome-free/css/fontawesome.css";
 import "@fortawesome/fontawesome-free/css/brands.css";
 import "@fortawesome/fontawesome-free/css/solid.css";
 
-import Home from "./Home";
+import Home from "./components/Home";
 export default function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <Main /> */}
       <Home />
     </div>
   );

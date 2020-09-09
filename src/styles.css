@@ -1,18 +1,36 @@
+:root {
+ --primary-color: #0f081d;
+ --secondary-color: #ececec;
+ --link-color: #b17acc;
+}
+
+
+
+
 .App {
   font-family: sans-serif;
   text-align: center;
 }
 body {
-  background:#ececec!important;
+  background:#ececec !important;
 }
+
+/* info-section */
+
+.info-section {
+  background-color: var(--primary-color);
+}
+
+
+/* skill-section */
 
 #skill-card-button {
   margin-right: 10px;
   margin-top: 5px;
   padding: 8px;
   font-size: 14px;
-  outline: none !important;
-  outline-offset: none !important;
+  outline: none ;
+  outline-offset: none ;
 }
 
 .col-skill-button {
@@ -42,7 +60,15 @@ body {
 
 /* for vertical timeliner line */
 .vertical-timeline::before {
-  background: rgb(0, 59, 92) !important;
+  background: var(--primary-color) !important;
+}
+
+#vertical-timeline-heading-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#vertical-timeline-heading-link:hover {
+  color: var(--link-color);
 }
 
 /* for timeliner component */
@@ -80,9 +106,20 @@ body {
 
 
 .navbar {
-  background: rgb(0, 59, 92);
+  background: var(--primary-color);
 }
 
+.nav-link {
+  color: var(--link-color) !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.active {
+  color: white !important; 
+}
 /* social icons css */
 
 .social-icons a {
@@ -145,5 +182,5 @@ body {
 }
 
 .link-foot:hover {
-  color: rgb(0, 59, 92);
+  color: var(--primary-color);
 }
