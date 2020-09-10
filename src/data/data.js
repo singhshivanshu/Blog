@@ -75,7 +75,7 @@ export let skillsets =  [
       topic: "World.",
       technology: ["ReactJS"],
       breif:
-        "A Web-app where you can find all the informations about all the countries in the world, It has been made using ReactJS, and Vanilla CSS ",
+        "A Web-app where you can find all the information about all the countries in the world, It has been made using ReactJS, and Vanilla CSS ",
       date: "Aug - 2020",
       logo: "fas fa-globe-asia",
       pro_link: "https://all-countries.netlify.app",
